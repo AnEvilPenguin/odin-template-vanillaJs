@@ -8,7 +8,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: "./src/index.html",
-            title: "EPs TODO App",
+            title: "Change in webpack.common",
 
             filename: "index.html",
             inject: "head",
