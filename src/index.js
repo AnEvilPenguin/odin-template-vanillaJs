@@ -7,7 +7,3 @@ const hello = document.createElement('h1');
 hello.textContent = 'Hello cruel world!';
 
 body.appendChild(hello);
-
-if (true) {
-    console.log('do a flip');
-}
