@@ -1,10 +1,13 @@
-import "./styles.css";
+import './styles.css';
 
-const body = document.querySelector("body");
-body.classList.add("background");
+const body = document.querySelector('body');
+body.classList.add('background');
 
-const hello = document.createElement("h1");
-hello.textContent = "Hello cruel world!";
+const hello = document.createElement('h1');
+hello.textContent = 'Hello cruel world!';
 
 body.appendChild(hello);
 
+if (true) {
+    console.log('do a flip');
+}
